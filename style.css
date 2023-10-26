@@ -1,0 +1,64 @@
+@font-face {
+    font-family: monaSans;
+    src: url(MonaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: monaSans;
+    src: url(MonaSans-Black.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: monaSans;
+    src: url(MonaSans-SemiBold.ttf);
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+} 
+
+#page {
+    width: 6in;
+    height: 8in;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -10;
+}
+
+.title {
+    background: #4dd2fe;
+    height: 75px;
+    padding-left: 10px;
+    z-index: 3;
+}
+
+h1 {
+    font-family: monaSans;
+    font-weight: 700;
+}
+
+.wave {
+    width: 6in;
+    position: absolute;
+    z-index: 2;
+}
+
+p {
+    font-family: monaSans;
+}
+
+.flip {
+    transform: scaleY(-1);
+}
+
+.bubble {
+    left: calc(calc(calc(100vw - 6in) / 2) + 10px);
+    position: absolute;
+    z-index: 100;
+    border: 4px black solid;
+    border-radius: 4px;
+}
