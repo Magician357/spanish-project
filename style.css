@@ -129,3 +129,10 @@ hr {
     width: 0;
     height:0;
 }
+
+.footer {
+    position:absolute;
+    top:13.75in;
+    right: 50vw;
+    font-family: monaSans;
+}
